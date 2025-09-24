@@ -1,0 +1,109 @@
+{
+  "Mumbai": {
+    "Pune": {"distance": 150, "price": {"bus": 400, "train": 300, "plane": 2500}},
+    "Nashik": {"distance": 170, "price": {"bus": 350, "train": 250, "plane": 2400}},
+    "Aurangabad": {"distance": 330, "price": {"bus": 500, "train": 450, "plane": 2700}}
+  },
+  "Pune": {
+    "Mumbai": {"distance": 150, "price": {"bus": 400, "train": 300, "plane": 2500}},
+    "Satara": {"distance": 110, "price": {"bus": 250, "train": 200, "plane": 0}},
+    "Kolhapur": {"distance": 230, "price": {"bus": 450, "train": 350, "plane": 2800}}
+  },
+  "Nashik": {
+    "Mumbai": {"distance": 170, "price": {"bus": 350, "train": 250, "plane": 2400}},
+    "Aurangabad": {"distance": 200, "price": {"bus": 400, "train": 300, "plane": 2600}},
+    "Dhule": {"distance": 150, "price": {"bus": 300, "train": 220, "plane": 0}}
+  },
+  "Aurangabad": {
+    "Nashik": {"distance": 200, "price": {"bus": 400, "train": 300, "plane": 2600}},
+    "Jalna": {"distance": 60, "price": {"bus": 80, "train": 70, "plane": 0}},
+    "Latur": {"distance": 280, "price": {"bus": 420, "train": 350, "plane": 2500}}
+  },
+  "Nagpur": {
+    "Wardha": {"distance": 80, "price": {"bus": 120, "train": 100, "plane": 0}},
+    "Amravati": {"distance": 160, "price": {"bus": 300, "train": 250, "plane": 2200}},
+    "Chandrapur": {"distance": 150, "price": {"bus": 250, "train": 220, "plane": 2000}}
+  },
+  "Kolhapur": {
+    "Sangli": {"distance": 50, "price": {"bus": 80, "train": 70, "plane": 0}},
+    "Belgaum": {"distance": 120, "price": {"bus": 200, "train": 180, "plane": 0}},
+    "Pune": {"distance": 230, "price": {"bus": 450, "train": 350, "plane": 2800}}
+  },
+  "Satara": {
+    "Pune": {"distance": 110, "price": {"bus": 250, "train": 200, "plane": 0}},
+    "Sangli": {"distance": 130, "price": {"bus": 280, "train": 240, "plane": 0}}
+  },
+  "Sangli": {
+    "Kolhapur": {"distance": 50, "price": {"bus": 80, "train": 70, "plane": 0}},
+    "Satara": {"distance": 130, "price": {"bus": 280, "train": 240, "plane": 0}},
+    "Solapur": {"distance": 230, "price": {"bus": 350, "train": 320, "plane": 2000}}
+  },
+  "Solapur": {
+    "Sangli": {"distance": 230, "price": {"bus": 350, "train": 320, "plane": 2000}},
+    "Latur": {"distance": 280, "price": {"bus": 420, "train": 360, "plane": 2200}},
+    "Osmanabad": {"distance": 70, "price": {"bus": 100, "train": 90, "plane": 0}}
+  },
+  "Latur": {
+    "Osmanabad": {"distance": 70, "price": {"bus": 100, "train": 90, "plane": 0}},
+    "Nanded": {"distance": 280, "price": {"bus": 450, "train": 380, "plane": 2100}},
+    "Aurangabad": {"distance": 280, "price": {"bus": 420, "train": 350, "plane": 2500}}
+  },
+  "Osmanabad": {
+    "Solapur": {"distance": 70, "price": {"bus": 100, "train": 90, "plane": 0}},
+    "Latur": {"distance": 70, "price": {"bus": 100, "train": 90, "plane": 0}}
+  },
+  "Jalna": {
+    "Aurangabad": {"distance": 60, "price": {"bus": 80, "train": 70, "plane": 0}},
+    "Parbhani": {"distance": 140, "price": {"bus": 200, "train": 170, "plane": 0}}
+  },
+  "Parbhani": {
+    "Jalna": {"distance": 140, "price": {"bus": 200, "train": 170, "plane": 0}},
+    "Nanded": {"distance": 70, "price": {"bus": 120, "train": 100, "plane": 0}}
+  },
+  "Nanded": {
+    "Parbhani": {"distance": 70, "price": {"bus": 120, "train": 100, "plane": 0}},
+    "Latur": {"distance": 280, "price": {"bus": 450, "train": 380, "plane": 2100}},
+    "Hingoli": {"distance": 90, "price": {"bus": 150, "train": 120, "plane": 0}}
+  },
+  "Hingoli": {
+    "Nanded": {"distance": 90, "price": {"bus": 150, "train": 120, "plane": 0}},
+    "Yavatmal": {"distance": 190, "price": {"bus": 300, "train": 250, "plane": 0}}
+  },
+  "Yavatmal": {
+    "Hingoli": {"distance": 190, "price": {"bus": 300, "train": 250, "plane": 0}},
+    "Amravati": {"distance": 150, "price": {"bus": 250, "train": 200, "plane": 0}}
+  },
+  "Amravati": {
+    "Yavatmal": {"distance": 150, "price": {"bus": 250, "train": 200, "plane": 0}},
+    "Nagpur": {"distance": 160, "price": {"bus": 300, "train": 250, "plane": 2200}}
+  },
+  "Wardha": {
+    "Nagpur": {"distance": 80, "price": {"bus": 120, "train": 100, "plane": 0}},
+    "Chandrapur": {"distance": 100, "price": {"bus": 180, "train": 150, "plane": 0}}
+  },
+  "Chandrapur": {
+    "Nagpur": {"distance": 150, "price": {"bus": 250, "train": 220, "plane": 2000}},
+    "Wardha": {"distance": 100, "price": {"bus": 180, "train": 150, "plane": 0}},
+    "Gadchiroli": {"distance": 170, "price": {"bus": 280, "train": 240, "plane": 0}}
+  },
+  "Gadchiroli": {
+    "Chandrapur": {"distance": 170, "price": {"bus": 280, "train": 240, "plane": 0}},
+    "Nagpur": {"distance": 250, "price": {"bus": 400, "train": 350, "plane": 2300}}
+  },
+  "Dhule": {
+    "Nashik": {"distance": 150, "price": {"bus": 300, "train": 220, "plane": 0}},
+    "Jalgaon": {"distance": 90, "price": {"bus": 120, "train": 100, "plane": 0}}
+  },
+  "Jalgaon": {
+    "Dhule": {"distance": 90, "price": {"bus": 120, "train": 100, "plane": 0}},
+    "Buldhana": {"distance": 190, "price": {"bus": 280, "train": 250, "plane": 0}}
+  },
+  "Buldhana": {
+    "Jalgaon": {"distance": 190, "price": {"bus": 280, "train": 250, "plane": 0}},
+    "Akola": {"distance": 120, "price": {"bus": 200, "train": 180, "plane": 0}}
+  },
+  "Akola": {
+    "Buldhana": {"distance": 120, "price": {"bus": 200, "train": 180, "plane": 0}},
+    "Amravati": {"distance": 90, "price": {"bus": 150, "train": 120, "plane": 0}}
+  }
+}
